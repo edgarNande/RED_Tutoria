@@ -77,10 +77,10 @@ body {
 }
 
 .hero__shape--two {
-  width: 520px;
-  height: 170px;
-  right: -300px;
-  bottom: -205px;
+  width: 700px;
+  height: 270px;
+  right: -180px;
+  bottom: -180px;
   background: rgba(244, 197, 66, .92);
 }
 
