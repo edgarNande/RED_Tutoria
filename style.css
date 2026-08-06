@@ -52,13 +52,27 @@ body {
 }
 
 .hero::after {
-  content: "";
-  position: absolute;
-  inset: auto 0 -34px 0;
-  height: 88px;
-  background: linear-gradient(90deg, transparent, rgba(244, 197, 66, .9), transparent);
-  opacity: .9;
-  clip-path: polygon(0 72%, 18% 58%, 39% 72%, 61% 43%, 82% 67%, 100% 51%, 100% 100%, 0 100%);
+    content: "";
+    position: absolute;
+    inset: auto 0 -34px 0;
+    height: 45px;   /* antes 88px */
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(244,197,66,.65),
+        transparent
+    );
+    opacity: .55;
+    clip-path: polygon(
+        0 80%,
+        20% 70%,
+        40% 80%,
+        60% 68%,
+        80% 78%,
+        100% 72%,
+        100% 100%,
+        0 100%
+    );
 }
 
 .hero__shape {
