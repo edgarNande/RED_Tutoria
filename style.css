@@ -1,4 +1,4 @@
-:root {
+::root {
   --green-900: #004d2f;
   --green-800: #0f6b4f;
   --green-700: #1d7f5f;
@@ -77,10 +77,10 @@ body {
 }
 
 .hero__shape--two {
-  width: 700px;
-  height: 270px;
-  right: -180px;
-  bottom: -180px;
+  width: 920px;
+  height: 340px;
+  right: -240px;
+  bottom: -155px;
   background: rgba(244, 197, 66, .92);
 }
 
@@ -469,62 +469,13 @@ body {
   border-radius: 10px;
 }
 
-/* ===== LICENCIA CREATIVE COMMONS ===== */
-
-.footer__item a{
-  color: inherit;
-  text-decoration: none;
-}
-
-.footer__item a:hover{
-  text-decoration: underline;
-}
-
-.license{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-  margin-top: 4px;
-}
-
-.license strong{
-  margin-top: 0;
-  font-size: 16px;
-  line-height: 1.1;
-  max-width: 230px;
-}
-
-.license__icons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-  margin-top: 2px;
-}
-
-.license__icons img{
-  width: 14px;
-  height: 14px;
-  display: inline-block;
-}
-
-.license small{
-  font-size: 7px;
-  color: #4b5c54;
-  text-align: center;
-  line-height: 1.15;
-  max-width: 220px;
-}
-
 @media print {
   body {
-    background: #fff;
+    background: #fff
   }
 
   .poster {
     box-shadow: none;
-    margin: 0;
+    margin: 0
   }
 }
-/* actualización */
