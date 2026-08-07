@@ -1,173 +1,757 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Programa Institucional de Tutorías | Universidad de Colima</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
 
-  <!-- Barra Flotante de Acciones -->
+  <!-- ==========================================
+       BARRA DE ACCIONES
+  =========================================== -->
+
   <nav class="toolbar" aria-label="Controles">
+
     <div class="toolbar__container">
-      <span class="toolbar__title">Infografía PIT - Universidad de Colima</span>
-      <button id="btn-print" class="toolbar__btn" title="Imprimir o guardar como PDF">
-        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+
+      <span class="toolbar__title">
+        Infografía PIT - Universidad de Colima
+      </span>
+
+      <button
+        id="btn-print"
+        class="toolbar__btn"
+        type="button"
+        title="Imprimir o guardar como PDF"
+      >
+
+        <svg
+          viewBox="0 0 24 24"
+          width="18"
+          height="18"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+        >
+          <path d="M6 9V2h12v7" />
+          <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+          <rect x="6" y="14" width="12" height="8" />
+        </svg>
+
         <span>Imprimir / PDF</span>
+
       </button>
+
     </div>
+
   </nav>
 
-  <article class="poster" aria-label="Infografía del Programa Institucional de Tutorías">
+
+  <!-- ==========================================
+       PÓSTER
+  =========================================== -->
+
+  <article
+    class="poster"
+    aria-label="Infografía del Programa Institucional de Tutorías"
+  >
+
+
+    <!-- ==========================================
+         ENCABEZADO
+    =========================================== -->
+
     <header class="hero">
+
       <div class="hero__shape hero__shape--one"></div>
       <div class="hero__shape hero__shape--two"></div>
       <div class="hero__shape hero__shape--three"></div>
       <div class="hero__shape hero__shape--four"></div>
 
+
       <section class="hero__copy">
-        <p class="eyebrow">UNIVERSIDAD DE COLIMA</p>
-        <h1>¿Conoces el Programa Institucional de Tutorías?</h1>
-        <p class="subtitle">Guía práctica para estudiantes universitarios</p>
+
+        <p class="eyebrow">
+          UNIVERSIDAD DE COLIMA
+        </p>
+
+        <h1>
+          ¿Conoces el Programa Institucional de Tutorías?
+        </h1>
+
+        <p class="subtitle">
+          Guía práctica para estudiantes universitarios
+        </p>
+
         <div class="gold-rule"></div>
+
         <div class="meta">
-          <p><span class="meta__icon">◆</span> FACULTAD DE CIENCIAS POLÍTICAS Y SOCIALES</p>
-          <p><span class="meta__icon">◆</span> SEMESTRE AGOSTO 2026 – ENERO 2027</p>
+
+          <p>
+            <span class="meta__icon">◆</span>
+            FACULTAD DE CIENCIAS POLÍTICAS Y SOCIALES
+          </p>
+
+          <p>
+            <span class="meta__icon">◆</span>
+            SEMESTRE AGOSTO 2026 – ENERO 2027
+          </p>
+
         </div>
+
       </section>
 
-      <section class="seal" aria-label="Escudo Universidad de Colima">
+
+      <section
+        class="seal"
+        aria-label="Escudo Universidad de Colima"
+      >
+
         <div class="seal__ring">
-          <img src="./logo_ucol.png" alt="Escudo de la Universidad de Colima" />
+
+          <img
+            src="./logo_ucol.png"
+            alt="Escudo de la Universidad de Colima"
+          />
+
         </div>
+
       </section>
+
     </header>
 
+
+    <!-- ==========================================
+         TARJETAS
+    =========================================== -->
+
     <main class="cards">
+
+
+      <!-- 1. ¿QUÉ ES EL PIT? -->
+
       <section class="card card--wide" data-animate>
+
         <div class="card__bar"></div>
+
         <div class="card__icon" aria-hidden="true">
-          <img src="./ilustraciones/tutor.svg" alt="Tutoría universitaria" />
+
+          <svg viewBox="0 0 90 90">
+
+            <circle cx="45" cy="45" r="45" />
+
+            <circle
+              class="cut"
+              cx="45"
+              cy="34"
+              r="10"
+            />
+
+            <path
+              class="cut"
+              d="M27 67c2-13 10-20 18-20s16 7 18 20"
+            />
+
+          </svg>
+
         </div>
+
         <div class="card__content">
-          <h2>¿Qué es el PIT?</h2>
-          <p>Es una estrategia institucional de acompañamiento académico que orienta y apoya al estudiante durante toda su trayectoria universitaria.</p>
+
+          <h2>
+            ¿Qué es el PIT?
+          </h2>
+
+          <p>
+            Es una estrategia institucional de acompañamiento académico
+            que orienta y apoya al estudiante durante toda su trayectoria
+            universitaria.
+          </p>
+
         </div>
+
       </section>
 
+
+      <!-- 2. ¿PARA QUÉ SIRVE? -->
+
       <section class="card" data-animate>
+
         <div class="card__bar"></div>
+
         <div class="card__icon" aria-hidden="true">
-          <img src="./ilustraciones/apoyo.svg" alt="Apoyo y orientación" />
+
+          <svg viewBox="0 0 90 90">
+
+            <circle cx="45" cy="45" r="45" />
+
+            <path
+              d="M22 40 45 24l23 16"
+            />
+
+            <path
+              d="M27 40h36v28H27z"
+            />
+
+            <path
+              class="cut"
+              d="M38 68V50h14v18"
+            />
+
+            <path
+              class="cut"
+              d="M31 43h28"
+            />
+
+          </svg>
+
         </div>
+
         <div class="card__content">
-          <h2>¿Para qué sirve?</h2>
+
+          <h2>
+            ¿Para qué sirve?
+          </h2>
+
           <ul>
             <li>Adaptación a la vida universitaria.</li>
             <li>Permanencia escolar.</li>
             <li>Orientación académica.</li>
             <li>Canalización a servicios especializados.</li>
           </ul>
+
         </div>
+
       </section>
 
+
+      <!-- 3. BENEFICIOS -->
+
       <section class="card" data-animate>
+
         <div class="card__bar"></div>
+
         <div class="card__icon" aria-hidden="true">
-          <img src="./ilustraciones/beneficios.svg" alt="Beneficios del programa" />
+
+          <svg viewBox="0 0 90 90">
+
+            <circle cx="45" cy="45" r="45" />
+
+            <path
+              d="M45 20
+                 52 36
+                 69 38
+                 56 50
+                 60 67
+                 45 58
+                 30 67
+                 34 50
+                 21 38
+                 38 36Z"
+            />
+
+            <path
+              class="cut"
+              d="M30 70h30"
+            />
+
+          </svg>
+
         </div>
+
         <div class="card__content">
-          <h2>Beneficios</h2>
+
+          <h2>
+            Beneficios
+          </h2>
+
           <ul>
             <li>Organización académica.</li>
             <li>Acompañamiento personalizado.</li>
             <li>Prevención del rezago escolar.</li>
             <li>Aprendizaje autónomo.</li>
           </ul>
+
         </div>
+
       </section>
 
+
+      <!-- 4. RESPONSABILIDADES -->
+
       <section class="card" data-animate>
+
         <div class="card__bar"></div>
+
         <div class="card__icon" aria-hidden="true">
-          <img src="./ilustraciones/responsabilidades.svg" alt="Responsabilidades del estudiante" />
+
+          <svg viewBox="0 0 90 90">
+
+            <circle cx="45" cy="45" r="45" />
+
+            <rect
+              x="30"
+              y="23"
+              width="30"
+              height="46"
+              rx="4"
+            />
+
+            <rect
+              class="cut"
+              x="38"
+              y="19"
+              width="14"
+              height="8"
+              rx="2"
+            />
+
+            <path
+              class="cut"
+              d="m35 37 4 4 7-8"
+            />
+
+            <path
+              class="cut"
+              d="M48 38h8"
+            />
+
+            <path
+              class="cut"
+              d="m35 50 4 4 7-8"
+            />
+
+            <path
+              class="cut"
+              d="M48 51h8"
+            />
+
+            <path
+              class="cut"
+              d="M35 61h21"
+            />
+
+          </svg>
+
         </div>
+
         <div class="card__content">
-          <h2>Responsabilidades</h2>
+
+          <h2>
+            Responsabilidades
+          </h2>
+
           <ul>
             <li>Asistir a tutorías.</li>
             <li>Mantener comunicación.</li>
             <li>Participar activamente.</li>
             <li>Cumplir acuerdos.</li>
           </ul>
+
         </div>
+
       </section>
 
+
+      <!-- 5. ¿CUÁNDO ACUDIR? -->
+
       <section class="card" data-animate>
+
         <div class="card__bar"></div>
+
         <div class="card__icon" aria-hidden="true">
-          <img src="./ilustraciones/estudio.svg" alt="Cuándo acudir a tutoría" />
+
+          <svg viewBox="0 0 90 90">
+
+            <circle cx="45" cy="45" r="45" />
+
+            <circle
+              class="cut"
+              cx="45"
+              cy="44"
+              r="21"
+            />
+
+            <path
+              class="cut"
+              d="M45 32v14l10 6"
+            />
+
+            <path
+              class="cut"
+              d="M31 69h28"
+            />
+
+          </svg>
+
         </div>
+
         <div class="card__content">
-          <h2>¿Cuándo acudir?</h2>
+
+          <h2>
+            ¿Cuándo acudir?
+          </h2>
+
           <ul>
             <li>Inicio del semestre.</li>
             <li>Dificultades académicas.</li>
             <li>Dudas administrativas.</li>
             <li>Necesidad de orientación.</li>
           </ul>
+
         </div>
+
       </section>
+
     </main>
 
+
+    <!-- ==========================================
+         MENSAJE DESTACADO
+    =========================================== -->
+
     <section class="callout" data-animate>
+
       <div class="callout__dot callout__dot--one"></div>
       <div class="callout__dot callout__dot--two"></div>
-      <p>La tutoría fortalece tu permanencia, formación integral y éxito académico.</p>
-      <strong>¡Aprovéchala!</strong>
+
+      <p>
+        La tutoría fortalece tu permanencia,
+        formación integral y éxito académico.
+      </p>
+
+      <strong>
+        ¡Aprovéchala!
+      </strong>
+
     </section>
 
+
+    <!-- ==========================================
+         PIE DE PÁGINA
+    =========================================== -->
+
     <footer class="footer">
+
       <div class="footer__line"></div>
+
       <section class="footer__grid">
+
+
+        <!-- AUTOR -->
+
         <div class="footer__item">
+
           <div class="footer__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/><path d="M4 21c.9-4.2 3.8-7 8-7s7.1 2.8 8 7"/></svg>
+
+            <svg viewBox="0 0 24 24">
+
+              <path
+                d="M12 12a4 4 0 1 0 0-8
+                   4 4 0 0 0 0 8Z"
+              />
+
+              <path
+                d="M4 21c.9-4.2
+                   3.8-7
+                   8-7
+                   s7.1 2.8
+                   8 7"
+              />
+
+            </svg>
+
           </div>
-          <span>Autor</span>
-          <strong>Edgar A. Nande Vázquez</strong>
+
+          <span>
+            Autor
+          </span>
+
+          <strong>
+            Edgar A. Nande Vázquez
+          </strong>
+
         </div>
+
+
         <div class="footer__divider"></div>
+
+
+        <!-- INSTITUCIÓN -->
+
         <div class="footer__item">
+
           <div class="footer__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="M5 10v7h14v-7M8 21h8"/></svg>
+
+            <svg viewBox="0 0 24 24">
+
+              <path
+                d="m12 3
+                   9 5
+                   -9 5
+                   -9-5
+                   9-5Z"
+              />
+
+              <path
+                d="M5 10v7h14v-7M8 21h8"
+              />
+
+            </svg>
+
           </div>
-          <span>Institución</span>
-          <strong>Universidad de Colima</strong>
+
+          <span>
+            Institución
+          </span>
+
+          <strong>
+            Universidad de Colima
+          </strong>
+
         </div>
+
+
         <div class="footer__divider"></div>
+
+
+        <!-- LICENCIA -->
+
         <div class="footer__item">
+
           <div class="footer__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 10c.6-1.6 1.7-2.4 3.3-2.4 2.2 0 3.6 1.5 3.6 3.8s-1.4 3.8-3.6 3.8c-1.6 0-2.8-.8-3.4-2.4"/><path d="M6.5 12h6"/></svg>
+
+            <svg viewBox="0 0 24 24">
+
+              <circle
+                cx="12"
+                cy="12"
+                r="9"
+              />
+
+              <path
+                d="M9 10
+                   c.6-1.6
+                   1.7-2.4
+                   3.3-2.4
+                   2.2 0
+                   3.6 1.5
+                   3.6 3.8
+                   s-1.4 3.8
+                   -3.6 3.8
+                   c-1.6 0
+                   -2.8-.8
+                   -3.4-2.4"
+              />
+
+              <path d="M6.5 12h6" />
+
+            </svg>
+
           </div>
-          <span>Licencia</span>
-          <strong><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener">CC BY-NC-SA 4.0</a></strong>
-          <div class="cc-icons" aria-label="Creative Commons">
-            <svg viewBox="0 0 24 24" width="16" height="16" title="CC"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10.5 9a2.2 2.2 0 0 0-2.2 2.2v1.6a2.2 2.2 0 0 0 2.2 2.2M16 9a2.2 2.2 0 0 0-2.2 2.2v1.6a2.2 2.2 0 0 0 2.2 2.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-            <svg viewBox="0 0 24 24" width="16" height="16" title="BY"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="8.5" r="1.8" fill="currentColor"/><path d="M7.5 17.5c0-2.5 2-4 4.5-4s4.5 1.5 4.5 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-            <svg viewBox="0 0 24 24" width="16" height="16" title="NC"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 6.5v11M14.5 9.5h-3.8a1.5 1.5 0 0 0 0 3h2.6a1.5 1.5 0 0 1 0 3h-3.8M6.5 17.5l11-11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-            <svg viewBox="0 0 24 24" width="16" height="16" title="SA"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M15.5 12a3.5 3.5 0 1 1-3.5-3.5h3.5m-2.5-2.5 2.5 2.5-2.5 2.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+
+          <span>
+            Licencia
+          </span>
+
+          <strong>
+
+            <a
+              href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              target="_blank"
+              rel="license noopener"
+            >
+              CC BY-NC-SA 4.0
+            </a>
+
+          </strong>
+
+
+          <!-- ICONOS CC -->
+
+          <div
+            class="cc-icons"
+            aria-label="Creative Commons"
+          >
+
+            <svg
+              viewBox="0 0 24 24"
+              width="16"
+              height="16"
+              aria-label="Creative Commons"
+            >
+
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+
+              <path
+                d="M10.5 9
+                   a2.2 2.2 0 0 0-2.2 2.2
+                   v1.6
+                   a2.2 2.2 0 0 0 2.2 2.2
+
+                   M16 9
+                   a2.2 2.2 0 0 0-2.2 2.2
+                   v1.6
+                   a2.2 2.2 0 0 0 2.2 2.2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+
+            </svg>
+
+
+            <svg
+              viewBox="0 0 24 24"
+              width="16"
+              height="16"
+              aria-label="Atribución"
+            >
+
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+
+              <circle
+                cx="12"
+                cy="8.5"
+                r="1.8"
+                fill="currentColor"
+              />
+
+              <path
+                d="M7.5 17.5
+                   c0-2.5
+                   2-4
+                   4.5-4
+                   s4.5 1.5
+                   4.5 4"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+
+            </svg>
+
+
+            <svg
+              viewBox="0 0 24 24"
+              width="16"
+              height="16"
+              aria-label="No Comercial"
+            >
+
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+
+              <path
+                d="M12 6.5v11
+
+                   M14.5 9.5
+                   h-3.8
+                   a1.5 1.5 0 0 0 0 3
+                   h2.6
+                   a1.5 1.5 0 0 1 0 3
+                   h-3.8
+
+                   M6.5 17.5
+                   l11-11"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+
+            </svg>
+
+
+            <svg
+              viewBox="0 0 24 24"
+              width="16"
+              height="16"
+              aria-label="Compartir Igual"
+            >
+
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+
+              <path
+                d="M15.5 12
+                   a3.5 3.5 0 1 1
+                   -3.5-3.5
+                   h3.5
+
+                   m-2.5-2.5
+                   2.5 2.5
+                   -2.5 2.5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+
+            </svg>
+
           </div>
-          <small class="footer__copy-text">© 2026 Edgar A. Nande Vázquez · UCOL</small>
+
+
+          <small class="footer__copy-text">
+            © 2026 Edgar A. Nande Vázquez · UCOL
+          </small>
+
         </div>
+
       </section>
+
     </footer>
+
   </article>
 
+
   <script src="./script.js"></script>
+
 </body>
+
 </html>
