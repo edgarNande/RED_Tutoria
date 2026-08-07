@@ -297,25 +297,74 @@ body {
   background: linear-gradient(180deg, var(--gold), #e7b62f);
 }
 
+/* ===== ICONOS DE LAS TARJETAS ===== */
+
 .card__icon {
   width: 110px;
   height: 110px;
   margin-left: 26px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   border-radius: 50%;
   background: #ffffff;
   border: 4px solid var(--gold);
+
   box-shadow: 0 10px 22px rgba(244, 197, 66, .36);
-  padding: 12px;
+
+  padding: 8px;
   overflow: hidden;
 }
 
-.card__icon img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+/* Tamaño del SVG dentro del círculo */
+
+.card__icon svg {
+  width: 88px;
+  height: 88px;
+  display: block;
+}
+
+/* Fondo amarillo del icono */
+
+.card__icon svg > circle:first-child {
+  fill: var(--gold);
+  stroke: none;
+}
+
+/* Figuras principales verdes */
+
+.card__icon svg path,
+.card__icon svg rect {
+  fill: var(--green-800);
+  stroke: none;
+}
+
+/* Líneas y detalles internos */
+
+.card__icon svg .cut {
+  fill: none !important;
+  stroke: #ffffff !important;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Círculos internos */
+
+.card__icon svg circle.cut {
+  fill: none !important;
+  stroke: var(--green-800) !important;
+  stroke-width: 4;
+}
+
+/* Rectángulos internos */
+
+.card__icon svg rect.cut {
+  fill: none !important;
+  stroke: #ffffff !important;
+  stroke-width: 4;
 }
 
 .card__content {
